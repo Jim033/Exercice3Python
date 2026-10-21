@@ -13,5 +13,5 @@ elif age >= 18 and age <=30:
     print("Prédiction : Tu auras un appel d'audi qui t'offre le dernier RS6 ")
 elif age >30 and age <=60:
     print("Prédiction : Tu auras un château avec un garage par marque de voiture")
-else:
+elif age > 60:
     print("Prédiction : Tu va avoir mal au dos tout les révéils")
