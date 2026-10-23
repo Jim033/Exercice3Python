@@ -34,7 +34,7 @@ moyenne = total / len(notes)
 print(f"La moyenne est : {moyenne}")
 
 # Calculer la somme des nombres de 1 a 100
-i = 0
+i = 1
 total = 0
 while i <= 100:
     total = total + i
@@ -44,6 +44,7 @@ print(total)
 # Poser la question "vas tu réussir dans le dev ?" dans la console et la reposer en boucle tant que la réponse n'est pas oui
 
 reponse = ""
+# point de départ pour construire une phrase
 while reponse != "oui":
     reponse = input("Vas-tu réussir dans le dev ? ")
     if reponse == "oui":

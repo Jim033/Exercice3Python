@@ -22,6 +22,7 @@ while essais > 0:
     while i < len(mot_secret):
         # In : Vérifie si quelque chose est présent.
         if mot_secret[i] in lettres_trouvees:
+            # est-ce que cette lettre a déjà été trouvée par le joueur ?
             print(mot_secret[i], end=" ")
         else:
             # End : Empêche le retour à la ligne après un print().
